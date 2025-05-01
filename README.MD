@@ -36,4 +36,3 @@ A RESTful API for managing country data, built with Node.js, Express, MongoDB, a
 - The application uses Mongoose for additional application-side validation
 - Indexes are implemented for optimal query performance
 
-- The `/test-validation` endpoint demonstrates MongoDB validation rules
