@@ -6,6 +6,13 @@ A RESTful API for managing country data, built with Node.js, Express, MongoDB, a
 - `GET /api/countries` - Get all countries
 - `GET /api/countries/:id` - Get a specific country
 - `POST /api/countries` - Create a new country
+    Example: {
+  "name": "France",
+  "continent": "507f1f77bcf86cd799439011",
+  "capital": "Paris",
+  "population": 67391582,
+  "languages": ["507f1f77bcf86cd799439012", "507f1f77bcf86cd799439013"]
+}
 - `PATCH /api/countries/:id` - Update a country
 - `DELETE /api/countries/:id` - Delete a country
 - `POST /api/countries/test-validation` - Test validation rules
