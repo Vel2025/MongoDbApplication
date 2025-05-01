@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 //import db from './db/conn.mjs';
-//import gradeRoutes from './routes/gradeRoutes.mjs';
+
 
 const app = express();
 dotenv.config();
